@@ -76,7 +76,6 @@ namespace VisionHealthCareAssessment.Controllers
         /// <param name="product"></param>
         /// <returns></returns>
         [HttpPost]
-        [HttpPut("{productId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CreateOrUpdateProduct(Product product)
