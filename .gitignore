@@ -3,3 +3,6 @@
 bin
 obj
 .vs
+/VisionHealthCareAssessment/Data/VisionHealthCare.db
+/VisionHealthCareAssessment/Data/VisionHealthCare.db-shm
+/VisionHealthCareAssessment/Data/VisionHealthCare.db-wal
