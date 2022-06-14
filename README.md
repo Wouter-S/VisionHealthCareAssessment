@@ -5,12 +5,14 @@ A small web api written in Visual Studio 2022 using .NET 6. Products can be retr
 
 ## Using the api
 When running the project, swagger will be reachable via https://localhost:7118/swagger/index.html. Included in the project is a "requests.http" file, which can be used with the [REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in visual studio code, the file are sample calls for all implemented methods. <br/>
-The database should be automatically created in the "Data" folder to be used in the API.
+The database should be automatically created in the "Data" folder to be used in the api.
 
 
 ## What's there
-- CRUD operations via the API.
-- Import from json
+- CRUD operations via the api.
+- Import from json.
+- Basic validation before data is created.
+- Tests for create and delete method.
 
 ## What's left to do
 - Logging could be implemented, get insights into the usage, warnings etc.
