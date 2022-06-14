@@ -1,0 +1,27 @@
+### Create or update product
+POST https://localhost:7118/products
+Content-Type: application/json
+
+{
+    "ProductId": "D929C6D6-D4DD-46BE-9CBD-20557B110C41",
+    "Price": 3.00,
+    "Currency": "EUR",
+    "Name": "wouters product",
+    "ProductGroupId": "444B47F0-D8A9-4D4D-9F08-56C5911423BD"
+}
+
+
+### Get product by productId
+GET https://localhost:7118/products/D929C6D6-D4DD-46BE-9CBD-20557B110C41
+
+### Get all products
+GET https://localhost:7118/products
+
+### Get products by filter
+GET https://localhost:7118/products?filter=Kauwtablet  
+
+### Delete product by productId
+DELETE https://localhost:7118/products/D929C6D6-D4DD-46BE-9CBD-20557B110C41
+
+### Import products
+POST  https://localhost:7118/products/import

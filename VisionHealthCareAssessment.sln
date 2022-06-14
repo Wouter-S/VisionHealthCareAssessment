@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisionHealthCareAssessment", "VisionHealthCareAssessment\VisionHealthCareAssessment.csproj", "{E6F36FDD-1AAF-440A-9890-73D39D6F2F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisionHealthCareAssessment.Tests", "VisionHealthCareAssessment.Tests\VisionHealthCareAssessment.Tests.csproj", "{2B369A66-7998-4DD1-9FF4-D730530FF22E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6F36FDD-1AAF-440A-9890-73D39D6F2F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F36FDD-1AAF-440A-9890-73D39D6F2F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F36FDD-1AAF-440A-9890-73D39D6F2F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F36FDD-1AAF-440A-9890-73D39D6F2F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B369A66-7998-4DD1-9FF4-D730530FF22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B369A66-7998-4DD1-9FF4-D730530FF22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B369A66-7998-4DD1-9FF4-D730530FF22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B369A66-7998-4DD1-9FF4-D730530FF22E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2559581-59D2-4F2C-A52C-BB15A015FCFC}
+	EndGlobalSection
+EndGlobal
